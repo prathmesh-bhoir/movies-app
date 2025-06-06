@@ -55,6 +55,7 @@ const Home = () => {
              type="text"
              placeholder='Search for movies...'
              className='search-input'
+             required
              value={searchQuery}
              onChange={(e)=>setSearchQuery(e.target.value)}
             />
